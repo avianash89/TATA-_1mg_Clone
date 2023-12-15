@@ -565,7 +565,9 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
-      <div className="footer4"></div>
+      <div className="footer4">
+        
+      </div>
     </div>
   );
 }
