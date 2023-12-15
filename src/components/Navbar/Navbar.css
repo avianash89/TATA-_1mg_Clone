@@ -1,0 +1,517 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Below code for Navbar  */
+
+.navbar {
+  height: 7%;
+  width: 100%;
+  border: 1px solid #f1f4f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-option {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  margin: 30px;
+  width: 120px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.option {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.option li a {
+  text-decoration: none;
+  color: black;
+}
+
+.option li a:hover {
+  color: #ff6f61;
+}
+
+.option .safe {
+  margin-left: -16px;
+  padding-top: 4px;
+}
+
+.safe {
+  background: #ff6f61;
+  font-size: 0.6rem;
+  margin-top: 1px;
+  border-radius: 2px;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  filter: drop-shadow(0 0 10px red);
+  animation: glow 0.5s alternate infinite;
+}
+
+@keyframes glow{
+  0%{
+    filter: drop-shadow(0 0 10px red);
+  }
+
+  100%{
+    filter: drop-shadow(0 0 25px red);
+  }
+}
+
+.safe a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.save-more {
+  background: #ff6f61;
+  font-size: 0.6rem;
+  margin-left: 5px;
+  border-radius: 2px;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+.save-more a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-box {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+.ls {
+  display: flex;
+  align-items: center;
+}
+
+.login,
+.signup {
+  margin: 0 5px;
+}
+.ls a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.offer {
+  padding: 10px;
+}
+
+.image2 {
+  height: 100%;
+}
+
+.image2 img {
+  margin: 30px;
+  width: 30px;
+  height: auto;
+}
+
+.need-help a {
+  padding: 40px;
+}
+
+/* Upper code for Navbar  */
+
+/* Below code for Search Box */
+
+.search-quick-offer {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  justify-content: center;
+  background-color: f1f4f6;
+  border: 1xp solid #f1f4f6;
+}
+
+.search {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  padding: 6px;
+}
+
+.lol {
+  width: 20%;
+  height: 100%;
+  background: #f1f4f6;
+  border-radius: 3px;
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location input {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  background: #f1f4f6;
+  outline: none;
+  border: 0;
+  width: 70%;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.location img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.lol2 {
+  width: 60%;
+  height: 100%;
+  background: #f1f4f6;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.search-box input {
+  font-size: 14px;
+  line-height: 21px;
+  display: block;
+  padding: 10px 30px 7px 0;
+  border: none;
+  outline: 0;
+  bottom: 19px;
+  box-shadow: none;
+  color: #3e3e3e;
+  text-indent: 12px;
+  height: 34px;
+  border-radius: 0 3px 3px 0;
+  background-color: #f1f4f6;
+  width: calc(100% - 25px);
+  display: inline;
+}
+
+.search-box img {
+  background-position: 0 -184px;
+  width: 13px;
+  height: 11px;
+  cursor: pointer;
+}
+
+.quick-offer {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lol3 img {
+  width: 11px;
+  height: 11px;
+}
+
+.lol3 span {
+  font-size: 14px;
+  color: #212121;
+}
+
+.btn button {
+  border-radius: 4px;
+  background-color: #ff6f61;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  width: 135%;
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+  color: #fff;
+  border: none;
+}
+
+/* Upper code for search and offer */
+
+/* Below code for Dropdown */
+
+.dropdown{
+  width: 100%;
+  height: 5%;
+  border: 1px solid #f1f4f6;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.dropdown select{
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #212121;
+  
+}
+
+.dropdown select option{
+  width: 10%;
+  height: 100%;
+  font-size: 12px;
+  /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  color: #000;
+  
+}
+
+.dropdown select:hover{
+  color: #ff6f61;
+}
+
+/* Upper code for Dropdown */
+
+/* Below code for Display */
+
+.display{
+  width: 100%;
+  height: 100%;
+  /* border: 5px solid red; */
+  background-color: #f6f6f6;
+  padding: 35px;
+  margin-bottom: 22px;
+}
+
+.display-box{
+  width: 80%;
+  height: 100%;
+  margin-left: 140px;
+  background-color: #f6f6f6;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.medicine-offer{
+  width: 35%;
+  height: 65%;
+  background: #fff;
+  border-radius: 3px;
+  padding-bottom: 3px;
+  justify-content: center;
+  /* border: 1px solid black; */
+ 
+}
+.medicine-offer a{
+  text-decoration: none;
+  color: #000;
+  
+}
+.medicine-offers{
+  width: 100%;
+  height: 17%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+  font-weight: 700;
+}
+ 
+.lab-test{
+  width: 100%;
+  height: 17%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+}
+.otc{
+  width: 100%;
+  height: 17%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+}
+.online-doc{
+  width: 100%;
+  height: 17%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+}
+.other-offer{
+  width: 100%;
+  height: 17%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+}
+.care-plan-offer{
+  width: 100%;
+  height: 16.1%;
+  border: 1px solid #f1f4f6;
+  padding: 20px;
+}
+
+.l{
+  width: 100%;
+  height: 8%;
+  position: relative;
+  /* border: 1px solid red; */
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 18px;
+  background: #f6f6f6;
+}
+
+.medicine-offer-display{
+  width: 60%;
+  height: 80%;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/*  */
+/* Footer1 code */
+
+.footer1{
+  width: 100%;
+  height: 35%;
+  border-top: 2px solid #eaeaea;
+  /* display: block; */
+}
+
+.india{
+  width: 100%;
+  height: 33.3%;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+}
+.india h3{
+  font-size: 24px;
+  padding: 24px;
+  padding-left: 530px;
+  margin: 0;
+  color: #000;
+  font-weight: 400;
+}
+.number{
+  width: 100%;
+  height: 33.3%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.a-1{
+  width: 8%;
+  height: 100%;
+  /* border: 1px solid orangered; */
+  justify-content: center;
+  align-items: center;
+}
+.num1 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 13px;
+}
+.num2 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+.alp1{
+  font-size: 15px;
+  padding-left: 36px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.alp2{
+  font-size: 15px;
+  padding-left: 18px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.a-2{
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid orangered; */
+}
+.a-3{
+  width: 8%;
+  height: 100%;
+  /* border: 1px solid orangered; */
+}
+
+.border{
+  width: 80%;
+  height: 1px;
+  border: 1px solid #eaeaea;
+  z-index: 9999;
+  margin: 24px auto;
+}
+
+.download-app{
+  width: 100%;
+  height: 17%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.free-text{
+  font-size: 20px;
+  margin-right: 36px;
+}
+
+.input1{
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #f1f4f6;
+    padding-left: 15px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.input1 input {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #000;
+  background: #f1f4f6;
+}
+.btn2 button{
+  border-radius: 4px;
+    background-color: #ff6f61;
+    width: 112px;
+    height: 40px;
+    margin-left: 9px;
+    border: none;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.footer2{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid blue; */
+}
