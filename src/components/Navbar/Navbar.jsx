@@ -12,8 +12,15 @@ import twitter from "./twitter.png";
 import youtube from "./youtube.png";
 import linkedin from "./linkedin.png";
 import medium from "./medium link.png";
-import google from "./Google play.png"
-import appstore from "./app store.png"
+import google from "./Google play.png";
+import appstore from "./app store.png";
+import reliable from "./reliable.png";
+import secure from "./secure.png";
+import affordable from "./affordable.png";
+import blue from "./blue.png";
+import orange from "./orange.png";
+import arow from "./arow.png";
+import payment from "./payment.png";
 
 export default function Navbar() {
   return (
@@ -140,193 +147,9 @@ export default function Navbar() {
         <select name="" id="">
           <option value="">Vitamins & Nutrition</option>
           <option value="">
-            {/* <div className="vitamins">
-              <ul>
-                <li>
-                  <a href="">Vitamins & Supplements</a>
-                </li>
-                <li>
-                  <a href="">Multivitamins</a>
-                </li>
-                <li>
-                  <a href="">Vitamin D3</a>
-                </li>
-                <li>
-                  <a href="">Vitamin C</a>
-                </li>
-                <li>
-                  <a href="">Minerals</a>
-                </li>
-                <li>
-                  <a href="">Calcium</a>
-                </li>
-                <li>
-                  <a href="">Vitamin B12 & B Complex</a>
-                </li>
-                <li>
-                  <a href="">Other Vitamins</a>
-                </li>
-                <li>
-                  <a href="">Nutritional Drinks</a>
-                </li>
-                <li>
-                  <a href="">Adult Daily Nutrition</a>
-                </li>
-                <li>
-                  <a href="">Kids Nutrition (2-15 Yrs)</a>
-                </li>
-                <li>
-                  <a href="">Women Nutrition</a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
-            </div> */}
+            <div className="Vitamins">
+
+            </div>
           </option>
         </select>
         <select name="" id="">
@@ -544,29 +367,128 @@ export default function Navbar() {
         <div className="connect">
           <h3>Connect</h3>
           <ul>
-            <li><span>Social Links</span></li>
             <li>
-              <a href=""><img src={facebook} alt="facebook" /></a>
-              <a href=""><img src={instagram} alt="instagram" /></a>
-              <a href=""><img src={twitter} alt="twitter" /></a>
-              <a href=""><img src={youtube} alt="youtube" /></a>
-              <a href=""><img src={linkedin} alt="linkedin" /></a>
-              <a href=""><img src={medium} alt="medium" /></a>
+              <span>Social Links</span>
             </li>
-            <li><span>Want daily dose of health?</span></li>
-            <li><button>SIGN UP</button></li>
+            <li>
+              <a href="">
+                <img src={facebook} alt="facebook" />
+              </a>
+              <a href="">
+                <img src={instagram} alt="instagram" />
+              </a>
+              <a href="">
+                <img src={twitter} alt="twitter" />
+              </a>
+              <a href="">
+                <img src={youtube} alt="youtube" />
+              </a>
+              <a href="">
+                <img src={linkedin} alt="linkedin" />
+              </a>
+              <a href="">
+                <img src={medium} alt="medium" />
+              </a>
+            </li>
+            <li>
+              <span>Want daily dose of health?</span>
+            </li>
+            <li>
+              <button>SIGN UP</button>
+            </li>
           </ul>
         </div>
         <div className="download">
           <h3>Download App</h3>
           <ul>
-            <li><a href=""><img src={google} alt="google play" /></a></li>
-            <li><a href=""><img src={appstore} alt="app store" /></a></li>
+            <li>
+              <a href="">
+                <img src={google} alt="google play" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src={appstore} alt="app store" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
+      <div className="footer3">
+        <div className="reliable">
+          <div className="reliable-img">
+            <img src={reliable} alt="reliable" />
+          </div>
+          <div className="rel">
+            <h5>Reliable</h5>
+            <p>
+              All products displayed on Tata 1mg are procured from verified and
+              licensed pharmacies. All labs listed on the platform are
+              accredited
+            </p>
+          </div>
+        </div>
+        <div className="secure">
+          <div className="secure-img">
+            <img src={secure} alt="secure" />
+          </div>
+          <div className="sec">
+            <h5>Secure</h5>
+            <p>
+              Tata 1mg uses Secure Sockets Layer (SSL) 128-bit encryption and is
+              Payment Card Industry Data Security Standard (PCI DSS) compliant
+            </p>
+          </div>
+        </div>
+        <div className="affordable">
+          <div className="affordable-img">
+            <img src={affordable} alt="affordable" />
+          </div>
+          <div className="aff">
+            <h3>Affordable</h3>
+            <p>
+              Find affordable medicine substitutes, save up to 50% on health
+              products, up to 80% off on lab tests and free doctor
+              consultations.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="footer4">
-        
+        <div className="blue-orange">
+          <div className="blue-img">
+            <div>
+              <a href="">
+                <img src={blue} alt="blue" />
+              </a>
+            </div>
+          </div>
+          <div className="oranges">
+            <div className="orange-img">
+              <div><img src={orange} alt="orange" /></div>
+            </div>
+          </div>
+        </div>
+        <div className="footer4-text">
+          India's only LegitScript and ISO/ IEC 27001 certified online
+          healthcare platform
+        </div>
+      </div>
+      <div className="footer5">
+        <div className="know-more">
+          <h2>
+            Know more about Tata 1mg
+            <span className="l1">
+              <span><img src={arow} alt="arow" /></span>
+            </span>
+          </h2>
+        </div>
+      </div>
+      <div className="footer6">
+        <div>
+          <div className="copy-right">© 2023 Tata 1mg. All rights reserved. All medicines are dispensed in compliance with the Drugs and Cosmetics Act, 1940 and Drugs and Cosmetics Rules, 1945. We do not process requests for Schedule X and habit forming drugs.</div>
+        </div>
+        <div className="payment"><img src={payment} alt="payment" /></div>
       </div>
     </div>
   );
