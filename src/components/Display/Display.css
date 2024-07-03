@@ -1,0 +1,91 @@
+/* Below code for Display */
+
+.display {
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid red; */
+    background-color: #f6f6f6;
+    padding: 35px;
+    margin-bottom: 22px;
+  }
+  
+  .display-box {
+    width: 80%;
+    height: 100%;
+    margin-left: 140px;
+    background-color: #f6f6f6;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .medicine-offer {
+    width: 35%;
+    height: 65%;
+    background: #fff;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  .medicine-offer a {
+    text-decoration: none;
+    color: #000;
+  }
+  .medicine-offers {
+    width: 100%;
+    height: 17%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+    font-weight: 700;
+  }
+  
+  .lab-test {
+    width: 100%;
+    height: 17%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+  }
+  .otc {
+    width: 100%;
+    height: 17%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+  }
+  .online-doc {
+    width: 100%;
+    height: 17%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+  }
+  .other-offer {
+    width: 100%;
+    height: 17%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+  }
+  .care-plan-offer {
+    width: 100%;
+    height: 16.1%;
+    border: 1px solid #f1f4f6;
+    padding: 20px;
+  }
+  
+  .l {
+    width: 100%;
+    height: 8%;
+    position: relative;
+    /* border: 1px solid red; */
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 50%;
+    background: #f6f6f6;
+  }
+  
+  .medicine-offer-display {
+    width: 60%;
+    height: 80%;
+    background: #fff;
+    border-radius: 3px;
+  }

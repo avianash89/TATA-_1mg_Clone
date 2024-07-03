@@ -1,0 +1,255 @@
+/* Below code for Dropdown */
+
+.dropdown {
+    width: 100%;
+    height: 5%;
+    border: 1px solid #f1f4f6;
+    background-color: #fff;
+    border-bottom: 1px solid #dedede;
+  }
+  
+  .dropdown ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .dropdown ul li {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    /* background: #483434; */
+  }
+  
+  .dropdown ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .dropdown ul li a span:hover {
+    color: #ff6f61;
+  }
+  
+  .mg-center {
+    margin: 0 4px;
+    padding: 8px 8px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  .mg-center img {
+    width: 13px;
+    height: 8px;
+    float: right;
+    padding: 0.8px;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+  
+  /* health-center  */
+  
+  .health-center-1 {
+    display: none;
+    /* position: absolute;
+    z-index: 31;
+    text-align: left; 
+    margin-top: 0; */
+    padding: 12px 0;
+    min-width: 10rem;
+    border-radius: 0 0 3px 3px;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    height: auto;
+    position: absolute;
+    text-align: start;
+  }
+  .health-center-1 ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px 25px;
+  }
+  .health-center-1 ul li {
+    padding: 10px 0;
+  }
+  .health-center ul {
+    border: none;
+    list-style-type: none;
+    padding: 0 24px 0 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .health-center ul li a {
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .health-center ul li a span {
+    color: #000;
+    margin-top: 16px;
+  }
+  
+  li:hover .health-center-1 {
+    display: block;
+    /* Adjust styles for visibility */
+  }
+  
+  /* Health1-center */
+  
+  .Health1-center {
+    position: absolute;
+    height: auto;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    opacity: 0;
+    z-index: 999;
+    font-family: sans-serif;
+    margin-top: 0;
+    padding: 12px 0;
+    min-width: 20vw;
+    justify-content: space-between;
+    border-radius: 0 0 3px 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+  }
+  
+  .Health1-center ul {
+    margin: 20px 15px;
+    text-align: center;
+    padding: 0 24px 0 20px;
+    border-left: 2px solid #f6f6f6;
+  }
+  
+  .Health1-center ul li {
+    display: block;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: start;
+  }
+  
+  .Health1-center ul li a {
+    padding-top:10px ;
+    display: block;
+  }
+  
+  li:hover .Health1-center {
+    display: flex;
+    opacity: 1;
+  }
+  
+  .color1{
+    font-weight: 700;
+  }
+  
+  .color{
+    color: #757575;
+  }
+  
+  .health-center-1 {
+    display: none;
+    /* position: absolute;
+    z-index: 31;
+    text-align: left; 
+    margin-top: 0; */
+    padding: 12px 0;
+    min-width: 10rem;
+    border-radius: 0 0 3px 3px;
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    height: auto;
+    position: absolute;
+    text-align: start;
+  }
+  .health-center-1 ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px 25px;
+  }
+  .health-center-1 ul li {
+    padding: 10px 0;
+  }
+  .health-center ul {
+    border: none;
+    list-style-type: none;
+    padding: 0 24px 0 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .health-center ul li a {
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .health-center ul li a span {
+    color: #000;
+    margin-top: 16px;
+  }
+  
+  li:hover .health-center-1 {
+    display: block;
+    /* Adjust styles for visibility */
+  }
+  
+  /* Health1-center */
+  
+  .Health2-center {
+    position: absolute;
+    height: auto;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    opacity: 0;
+    z-index: 999;
+    font-family: sans-serif;
+    margin-top: 0;
+    padding: 12px 0;
+    min-width: 20vw;
+    justify-content: space-between;
+    border-radius: 0 0 3px 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    right: 0;
+  }
+  
+  .Health2-center ul {
+    margin: 20px 15px;
+    text-align: center;
+    padding: 0 24px 0 20px;
+    border-left: 2px solid #f6f6f6;
+  }
+  
+  .Health2-center ul li {
+    display: block;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: start;
+  }
+  
+  .Health2-center ul li a {
+    padding-top:10px ;
+    display: block;
+  }
+  
+  li:hover .Health2-center {
+    display: flex;
+    opacity: 1;
+  }
+  
+  /*  */
+  /* Upper code for Dropdown */

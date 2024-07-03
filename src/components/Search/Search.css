@@ -1,0 +1,121 @@
+/* Below code for Search Box */
+
+.search-quick-offer {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    /* font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    justify-content: center;
+    background-color: f1f4f6;
+    border: 1xp solid #f1f4f6;
+  }
+  
+  .search {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    padding: 6px;
+  }
+  
+  .lol {
+    width: 20%;
+    height: 100%;
+    background: #f1f4f6;
+    border-radius: 3px;
+  }
+  
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .location input {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    background: #f1f4f6;
+    outline: none;
+    border: 0;
+    width: 70%;
+    padding: 10px;
+    text-transform: capitalize;
+  }
+  
+  .location img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .lol2 {
+    width: 60%;
+    height: 100%;
+    background: #f1f4f6;
+    align-items: center;
+    border-radius: 3px;
+  }
+  
+  .search-box input {
+    font-size: 14px;
+    line-height: 21px;
+    display: block;
+    padding: 10px 30px 7px 0;
+    border: none;
+    outline: 0;
+    bottom: 19px;
+    box-shadow: none;
+    color: #3e3e3e;
+    text-indent: 12px;
+    height: 34px;
+    border-radius: 0 3px 3px 0;
+    background-color: #f1f4f6;
+    width: calc(100% - 25px);
+    display: inline;
+  }
+  
+  .search-box img {
+    background-position: 0 -184px;
+    width: 13px;
+    height: 11px;
+    cursor: pointer;
+  }
+  
+  .quick-offer {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .lol3 img {
+    width: 11px;
+    height: 11px;
+  }
+  
+  .lol3 span {
+    font-size: 14px;
+    color: #212121;
+  }
+  
+  .btn button {
+    border-radius: 4px;
+    background-color: #ff6f61;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 135%;
+    text-align: center;
+    display: block;
+    margin-top: 0px;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Upper code for search and offer */

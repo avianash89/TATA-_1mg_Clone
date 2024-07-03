@@ -1,0 +1,121 @@
+/* Footer1 code */
+
+.footer1 {
+    width: 100%;
+    height: 35%;
+    border-top: 2px solid #eaeaea;
+    /* display: block; */
+  }
+  
+  .india {
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+  }
+  .india h3 {
+    font-size: 24px;
+    padding: 24px;
+    padding-left: 530px;
+    margin: 0;
+    color: #000;
+    font-weight: 400;
+  }
+  .number {
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .a-1 {
+    width: 8%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+    justify-content: center;
+    align-items: center;
+  }
+  .num1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 13px;
+  }
+  .num2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .alp1 {
+    font-size: 15px;
+    padding-left: 36px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .alp2 {
+    font-size: 15px;
+    padding-left: 18px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .a-2 {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+  }
+  .a-3 {
+    width: 8%;
+    height: 100%;
+    /* border: 1px solid orangered; */
+  }
+  
+  .border {
+    width: 90%;
+    height: 1px;
+    border: 1px solid #eaeaea;
+    z-index: 9999;
+    margin: 24px auto;
+  }
+  
+  .download-app {
+    width: 100%;
+    height: 17%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .free-text {
+    font-size: 20px;
+    margin-right: 36px;
+  }
+  
+  .input1 {
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: #f1f4f6;
+    padding-left: 15px;
+    vertical-align: middle;
+    padding-top: 10px;
+  }
+  .input1 input {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #000;
+    background: #f1f4f6;
+  }
+  .btn2 button {
+    border-radius: 4px;
+    background-color: #ff6f61;
+    width: 112px;
+    height: 40px;
+    margin-left: 9px;
+    border: none;
+    vertical-align: middle;
+    color: #fff;
+  }
+  

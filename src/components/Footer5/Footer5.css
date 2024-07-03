@@ -1,0 +1,56 @@
+.footer5 {
+    width: 100%;
+    height: 7%;
+    /* border: 1px solid rgb(34, 0, 255); */
+    text-align: left;
+    color: #666;
+  }
+  
+  .know-more {
+    border-top: 2px solid rgba(222, 226, 228, 0.21);
+    border-bottom: 1px solid rgba(222, 226, 228, 0.21);
+    padding: 12px 30px;
+    cursor: pointer;
+  }
+  
+  .know-more h2 {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+  }
+  
+  /* .know-more span li{
+    
+  } */
+  
+  .know-more span img {
+    height: 9px;
+    width: 11px;
+    float: right;
+  }
+  
+  .footer6 {
+    width: 100%;
+    height: 12%;
+    /* border: 1px solid rgb(60, 255, 0); */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px 10px;
+    border-top: 2px solid rgba(222, 226, 228, 0.21);
+    font-weight: 700;
+  }
+  
+  .copy-right {
+    color: #536971;
+    opacity: 0.6;
+    margin: 12px;
+    font-size: 14px;
+  }
+  
+  .payment img {
+    background-position: 0 -260px;
+    width: 153px;
+    height: 50px;
+  }
+  
